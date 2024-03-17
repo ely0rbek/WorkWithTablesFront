@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TableFive</title>
+    <style>
+      * {
+        text-align: left;
+        padding-left: 30px;
+      }
+
+      table,
+      th,
+      td {
+        /* border: 1px solid black; */
+        border-collapse: collapse;
+        border-style: inset;
+        border-color: black;
+        padding: 10px;
+      }
+      th,
+      td {
+        height: 30px;
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="width: 30%; margin-left: 35%; margin-top: 150px">
+      <tr>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+        <th>Header</th>
+      </tr>
+      <tr>
+        <td rowspan="4">Yo can span down</td>
+        <td colspan="3">You can span Across</td>
+      </tr>
+      <tr>
+        <td colspan="2">It's like a puzzle</td>
+        <td rowspan="3">Over here</td>
+      </tr>
+      <tr>
+        <td rowspan="2">This way</td>
+        <td>That way</td>
+      </tr>
+      <tr>
+        <td>Where am I?</td>
+      </tr>
+    </table>
+
+    <a href="TableOne.html">TableOne</a>
+    <a href="TableFour.html">TableFour</a>
+    <a href="TableTwo.html">TableTwo</a>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TableTwo</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        height: 70px;
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table style="width: 30%; margin-left: 35%; margin-top: 150px">
+      <tr>
+        <th style="background-color: #ffdeff">Logo</th>
+        <th colspan="3" style="background-color: #dcffff">Top Menu</th>
+      </tr>
+      <tr>
+        <td rowspan="2" style="background-color: #dcffff">Side Menu</td>
+        <td style="background-color: #feffed">World News</td>
+        <td style="background-color: #feffed">Financial</td>
+        <td rowspan="2" style="background-color: #ffdeff">List of Adds</td>
+      </tr>
+      <tr>
+        <td style="background-color: #feffed">Technology</td>
+        <td style="background-color: #feffed">Sports</td>
+      </tr>
+      <tr>
+        <td colspan="4" style="background-color: #dedede">Footer</td>
+      </tr>
+    </table>
+
+    <div>
+      <a href="TableOne.html">TableOne</a>
+      <a href="TableFour.html">TableFour</a>
+      <a href="TableFive.html">TableFive</a>
+    </div>
+  </body>
+</html>
